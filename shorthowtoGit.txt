@@ -7,6 +7,6 @@ git rebase	- Änderungen hohlen
 git status	- anzeigen, welche lokalen Dateien geändert (rot) wurden und welche für den nächsten commit hinzugefügt wurden (grün)
 git add *	- Alle Änderungen für den nächsten Commit hinzufügen, geht auch mit Dateinamen statts dem *
 git commit	- Commit mit hinzugefügten Änderungen im lokalen Repository erstellen
-			Commitnachricht: Aufgabennummer + kurze Beschreibung der Änderungen + welche Dateien betroffen sind
+			Commitnachricht: Aufgabennummer + kurze Beschreibung der Änderungen
 git push	- lokale Commits auf den Server laden (hier wird der GitHug-Login benötigt)
 git log		- alle Commits des aktuelen Branches auflisten (davor "git fetch" um die neusten Commitinformationen zu hohlen)

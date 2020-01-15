@@ -97,6 +97,44 @@ body {
   background: #ddd;
 }
 
+/* Style the impressum link */
+.impressum{
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+/*newsticker*/
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-container{
+  width: 100%;
+  overflow: hidden;
+}
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%;
+  background-color: #eee;
+  }
+  .ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 15s;
+}
+.ticker-move:hover{
+  animation-play-state: paused;
+}
+.ticker-line{
+  display: inline-block;
+  padding: 0 2rem;
+}
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {   
@@ -110,11 +148,4 @@ body {
     float: none;
     width: 100%;
   }
-}
-
-/* Style the impressum link */
-.impressum{
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
 }

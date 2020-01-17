@@ -1,5 +1,6 @@
 .shopContent{
   display: inline-grid;
+  width: 310px;
 }
 .shopimg{
   height: 300px;
@@ -8,3 +9,4 @@
   width:100%;
   padding:20px;
 }
+.produk

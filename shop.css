@@ -1,0 +1,10 @@
+.shopContent{
+  display: inline-grid;
+}
+.shopimg{
+  height: 300px;
+  width: 300px;
+  background-color: #aaa;
+  width:100%;
+  padding:20px;
+}

@@ -1,0 +1,44 @@
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    height: calc(100% - 104px);
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 15%; /* IE10 */
+    flex: 15%;
+    float:left;
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 700px;
+}
+
+.side a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #2196F3;
+    display: block;
+}
+
+.side a:hover {
+    color: #064579;
+}
+
+/* Main column */
+.main {
+    height: 100%;
+    -ms-flex: 85%; /* IE10 */
+    flex: 85%;
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+}
+
+body, html {
+    height: 100%;
+}

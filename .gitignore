@@ -1,0 +1,2 @@
+# ignore the .idea/ directory from the intellij development environments webstorm and phpstorm
+.idea/

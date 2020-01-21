@@ -9,68 +9,62 @@
   </div>
   <div class="main">
     <h2>Mitglieder</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-	
-	
-	
-	
-	
-	
+    <h5>Swipe your cursor over the pictures to see some quotes.</h5>
 	
 	<div class="row">
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member1" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member2" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member3" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member4" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member5" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member6" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="Testbild.jpg" alt="Avatar" class="image">
+		  <img src="mitglieder-testbild.jpg" alt="Member7" class="image">
 		  <div class="overlay">
-		    <div class="text">>>ZITAT<<</div>
+		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>
@@ -80,7 +74,7 @@
 	
 	
 	
-    <p>Some text..</p>
+    <p>Who we are ......</p>
     <br>
   </div>
 </div>

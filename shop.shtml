@@ -12,6 +12,9 @@
     <h1>Shop</h1>
     <div class="shopContent">
       <h2>Produkt1</h2>
+      <div class="focusExitButton">
+        <p> Exit</p>
+      </div>
       <img src="Testbild.jpg" alt="Produkt1" class="shopimg">
       <p> Test-Produktbeschreibung<br></p>
     </div>

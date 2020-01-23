@@ -10,13 +10,84 @@
   <div class="main">
     <h2>Scrum</h2>
     <h5>Unsere Arbeit mit Scrum</h5>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <h5>Beschreibung</h5>  
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <p><a href="url">Link 1</a></p>
-    <p><a href="url">Link 2</a></p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SDVgTMkwEm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+    <p>Wie man durch diese Seite sehen kann, weisen wir dem Scrum-Model und dem Arbeiten damit eine besondere Bedeutung
+      zu. Seit Beginn dieses Projektes versuchen wir, nach bestem Wissen und Gewissen die Leitlinien und grundsätzlichen
+      Ideen von Scrum umzusetzen. Noch vor dem ersten Sprint unterstützten wir unseren Product-Owner beim Befüllen des
+      Backlogs. Nach Start des ersten Sprints stellt sich bei uns schnell eine Scrum-Routine ein:</p><p> Je nach dem Aufgaben-
+      Pensum und der vorrausichtlichen persönlichen Arbeitszeit am Projekt wird ein oder zwei Mal die Woche ein neuer
+      Sprint gestartet. Dabei wird versucht, wenn möglich, jeden Tag ein Daily Scrum abzuhalten, auch wenn einzelne
+      Daily’s aufgrund der fehlenden Schnittmenge bezüglich der persönlichen Zeitplanung und Zeiteinteilung ausfallen
+      mussten. Die Reviews nach einem Sprint erweisen sich vor allem deshalb als produktiv, da dadurch die Resultate des
+      vergangenen Sprints gemeinsam besprochen werden, und nach gemeinsamen Konsens diese bei Bedarf im nächsten Sprint
+      angepasst oder nachgebessert werden. Auch in der Retro findet stets konstruktive Kriktik statt, die sich aber
+      meistens auf die Kommunikation des Teams, die Arbeitsweise und die Arbeitsmoral beschränkt. Leider konnte der
+    Scrum-Master durch seinen ausgefüllten Zeitplan nicht so oft, wie gewünscht einbezogen werden.</p><p>
+      Insgesamt kann man sagen, dass alle Teammitglieder sehr schnell die Arbeitsweise mit Scrum akzeptiert und in die
+      tägliche Routine mit Begeisterung integriert haben. Dabei ist vor allem das veranwortungsvolle Management durch
+      den Product-Owner hervorzuheben.</p>
+    <img src="scrum_deck.png" alt="Scrum-Symbolbild" style="height: 320px; width: 715px">
+    <h5>Ausführliche Definition</h5>
+
+    <div class="field__item"><p class="MsoNormal">Vorgehensmodell der agilen Softwareentwicklung,
+    das davon ausgeht, dass Softwareprojekte aufgrund ihrer Komplexität
+    nicht im Voraus detailliert planbar sind. Aus diesem Grund erfolgt die
+    Planung nach dem Prinzip der schrittweisen Verfeinerung, wobei die
+    Entwicklung des Systems durch das Team nahezu gleichberechtigt erfolgt.<br><br>Das
+    zu entwickelnde System wird über Produkteigenschaften (Features)
+    definiert, die im Product Backlog in einer priorisierten Reihenfolge
+    festgelegt sind. Das Product Backlog ist anfangs nicht vollständig und
+    wird mit der Zeit um weitere Eigenschaften erweitert bzw. um
+    Eigenschaften reduziert. Die eigentliche Entwicklung des Systems ist in
+    sogenannte Sprints unterteilt, die zwischen einer Woche und einem Monat
+    dauern. In einem Sprint werden alle Eigenschaften umgesetzt, die zuvor
+    aus dem Product Backlog ausgewählt und in das Sprint Backlog eingetragen
+    worden sind. Das Ergebnis eines Sprints ist ein lauffähiges
+    (Teil-)System. An einen Sprint schließt sich die Retrospektive an, in
+    der der soeben abgeschlossene Projektabschnitt bewertet wird, um
+    Erfahrungen zu verarbeiten und in Verbesserungen einfließen zu lassen.<br><br>In Scrum sind drei interne und drei
+      externe Rollen vorgesehen. Die internen Rollen sind <br>(1) der Product Owner, <br>(2) das Entwicklungsteam und
+      <br>(3) der Scrum Master.<br><br>Zu den externen Rollen zählen <br>(1) der Kunde, <br>(2) der Anwender und <br>(3)
+      das Management.<br><br>Der
+    Product Owner ist mit dem Projektleiter zu vergleichen, der die
+    Verbindung zum Kunden hält und mit diesem in regelmäßigem Kontakt steht.
+    Er hat die Verantwortung hinsichtlich der Konzeption, der
+    Projektkosten, der Terminierung und der Systemfunktionalität, weshalb er
+    die Richtung bezüglich der Produkteigenschaften vorgibt. Der Product
+    Owner nimmt die vom Team gelieferte Leistung hinsichtlich der
+    Funktionalität ab. Er verwaltet die Produkteigenschaften im Product
+    Backlog und priorisiert diese.<br><br>Das Entwicklungsteam ist für die
+    Realisierung der Eigenschaften verantwortlich. Es entscheidet, wie viele
+    Eigenschaften in das Sprint Backlog übernommen und somit in einem
+    Sprint umgesetzt werden. Das Team ist eigenverantwortlich in seiner
+    Arbeit und verteilt die anfallenden Aufgaben untereinander. Das Team ist
+    interdisziplinär zusammengesetzt, wobei jedes Teammitglied selbst aber
+    auch interdisziplinär arbeiten muss. Das Team trifft sich zu Beginn
+    eines jeden Tages für maximal 15 Minuten im Daily Scrum, in dem
+    innerhalb des Teams jedes Mitglied über seinen Fortschritt und das
+    nächste Ziel mithilfe von Burndown Charts berichtet. Alle Treffen werden
+    vom Scrum Master moderiert, der dafür sorgt, dass das Team ungestört
+    seiner Arbeit nachgehen kann und es von Anfragen von außen abschottet.
+    Er ist nicht Mitglied des Teams und diesem nicht weisungsbefugt. Der
+    Scrum Master kümmert sich um Probleme innerhalb des Teams und um
+    mögliche Probleme, die das Team an der Entwicklung hindern.<br><br>Anwender
+    sind die Personen, die mit dem fertigen Produkt arbeiten müssen. Nur
+    die Anwender können den Entwicklern Feedback darüber geben, ob das
+    Produkt in jeglicher Hinsicht korrekt arbeitet und hinreichend gut
+    benutzbar ist (Usability).<br><br>Das Management ist in letzter Instanz
+    verantwortlich dafür, dass das Scrum gelingt. Zu diesem Zweck muss es
+    dafür sorgen, dass die Rahmenbedingungen wie Räumlichkeiten, Ressourcen,
+    verfügbare Technik, personelle Ausstattung gegeben sind.<br></p>
+    <p>
+      Quelle: <a href="https://wirtschaftslexikon.gabler.de/definition/scrum-53462/version-276551">Gabler Wirtschaftslexikon
+      <br><br>
+    </a>
+    </p></div>
+
+
+<p><a href="https://www.scrumguides.org/">Link zur offiziellen Scrum-Seite</a></p>
+    <p><a href="https://www.scrumguides.org/download.html">Download the official Scrum-Guide in your language</a></p>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9TycLR0TqFA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <br>
   </div>
 </div>

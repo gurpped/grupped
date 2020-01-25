@@ -1,3 +1,7 @@
+:root {
+  --seconds-per-ticker-message: 4s;
+  --number-of-ticker-messages: 4;
+}
 * {
   box-sizing: border-box;
 }
@@ -117,7 +121,8 @@ body {
 .ticker-wrap {
   width: 100%;
   padding-left: 100%;
-  background-color: #eee;
+  background-color: #666;
+  color: #fff;
   }
   .ticker-move {
   display: inline-block;
@@ -126,7 +131,7 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 15s;
+  animation-duration: calc(var(--number-of-ticker-messages)*var(--seconds-per-ticker-message));
 }
 .ticker-move:hover{
   animation-play-state: paused;

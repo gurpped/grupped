@@ -8,15 +8,33 @@
 </head>
 <body>
 
+<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()" id="sidebarButton">☰</button>
+
 <div class="header">
   <h1>My Website</h1>
   <p>A <b>responsive</b> website created by grupped.</p>
 </div>
 
-<div class="navbar">
-  <a href="index.shtml" class="active">Home</a>
-  <a href="mitglieder.shtml">Mitglieder</a>
-  <a href="shop.shtml">Shop</a>
-  <a href="dokumentation.shtml">Dokumentation</a>
-  <a href="scrum.shtml">Scrum</a>
+<div class="w3-sidebar w3-bar-block w3-border-right" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
+  <div class="navbar" style="display:block">
+    <a href="index.shtml" class="active">Home</a>
+    <a href="mitglieder.shtml">Mitglieder</a>
+    <a href="shop.shtml">Shop</a>
+    <a href="dokumentation.shtml">Dokumentation</a>
+    <a href="scrum.shtml">Scrum</a>
+  </div>
 </div>
+
+
+<script>
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("sidebarButton").style.display= "none";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("sidebarButton").style.display= "block";
+  }
+</script>

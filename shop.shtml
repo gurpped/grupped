@@ -11,42 +11,53 @@
   <div class="main">
     <h1>Shop</h1>
     <div class="shopContent">
-      <h2>Produkt1</h2>
+      <h2>T-Shirt</h2>
       <div class="focusExitButton">
         <p> Exit</p>
       </div>
-      <img src="Testbild.jpg" alt="Produkt1" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <img src="bilder_shop/tshirt.png" alt="T-Shirt" class="shopimg">
+      <p class="description">Kompromisslos klassisch: Unser aller Lieblingskleidungsstück in seiner
+        puristischsten Erscheinungsform. Ein absolutes Basisteil für jede Lebenslage. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt2</h2>
-      <img src="Testbild.jpg" alt="Produkt2" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Hoodie</h2>
+      <img src="bilder_shop/hoodie.png" alt="Hoodie" class="shopimg">
+      <p class="description">Dieser Hoodie landet wahlweise in ihrem oder seinem Kleiderschrank
+        und darf natürlich auch geteilt werden. Der weiche Stoffmix, die große Tasche
+        und die Kapuze mit Kordelzug gehen mit Dir auf Kuschelkurs. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt3</h2>
-      <img src="Testbild.jpg" alt="Produkt3" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Teddybär</h2>
+      <img src="bilder_shop/teddy.png" alt="Teddybär" class="shopimg">
+      <p class="description"> Ob als Kuscheltier, bester Freund oder treuer Bettbewacher –
+        der niedliche Kuschelteddy mit unserem Logo empfängt große und
+        kleine Schmusebären mit offenen Armen. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt4</h2>
-      <img src="Testbild.jpg" alt="Produkt4" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Baseballkappe</h2>
+      <img src="bilder_shop/basecap.png" alt="Baseballkappe" class="shopimg">
+      <p class="description"> Egal ob für Sport, Beruf oder Freizeit, egal ob mit dem Schirm nach vorne,
+        zur Seite oder nach hinten – die Baseballkappe ist ein universell einsetzbares Accessoire,
+        das sportlich-coole Akzente setzt und nebenbei noch vor Sonne, Wind und Regen schützt. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt5</h2>
-      <img src="Testbild.jpg" alt="Produkt5" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Gymbag</h2>
+      <img src="bilder_shop/gymbag.png" alt="Gymbag" class="shopimg">
+      <p class="description"> Jetzt vergisst keiner mehr seinen Turnbeutel. Dieses praktische Exemplar ist die
+        umweltfreundliche Alternative für Rucksack-Liebhaber. Damit ist es für sportliche
+        Aktivitäten genauso gut geeignet wie für abenteuerliche Erkundungen im Großstadtdschungel. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt6</h2>
-      <img src="Testbild.jpg" alt="Produkt6" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Tasse</h2>
+      <img src="bilder_shop/tasse.png" alt="Tasse" class="shopimg">
+      <p class="description">Die Tasse für alle Fälle. Robust, griffig und formschön auf dem Frühstückstisch, im Büro
+        und überall wo Du gern heißen Kaffee, kalte Milch oder Deinen Feierabendtee trinkst. <br></p>
     </div>
     <div class="shopContent">
-      <h2>Produkt7</h2>
-      <img src="Testbild.jpg" alt="Produkt7" class="shopimg">
-      <p> Test-Produktbeschreibung<br></p>
+      <h2>Kissen</h2>
+      <img src="bilder_shop/kissen.png" alt="Kissen" class="shopimg">
+      <p class="description"> Ob im Bett oder auf dem Sofa – mit diesem Bezug wird jedes Kissen zum Deko-Kunstwerk.
+        Dank hochwertiger Bettwäschequalität ist es auch für ein Schläfchen zwischendurch bestens geeignet.<br></p>
     </div>
   </div>
 </div>

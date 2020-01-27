@@ -43,6 +43,11 @@ body, html {
     height: 100%;
 }
 .doku-abschnitt{
-    padding: 15px 15px 50px;
+    margin: 15px 15px 50px;
     overflow: visible;
+}
+.doku-bild{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
 }

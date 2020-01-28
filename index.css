@@ -67,25 +67,41 @@ body {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
+
 .side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
+  -ms-flex: 5%; /* IE10 */
+  flex: 5%;
+  background-color: #4a6572;
+  color: #fff;
   padding: 20px;
 }
 
+.side a {
+  /*padding: 6px 8px 6px 16px;*/
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+}
+
+.side a:link {
+  color: #fff;
+}
+
+.side a:visited {
+  color: #fff;
+}
+.side a:hover {
+  color: #f9aa33;
+}
+
+.side a:active {
+  color: #232f34;
+}
 /* Main column */
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
   padding: 20px;
 }
 

@@ -3,8 +3,6 @@
 
 <div class="row">
   <div class="side">
-    <p>Platz für Seitentext und Bilder</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
   </div>
   <div class="main">
     <h2>Scrum</h2>

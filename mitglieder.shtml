@@ -1,5 +1,4 @@
 <!--#include file="header.html" -->
-<link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" type="text/css" href="mitglieder.css">
 
 <div class="row">
@@ -10,7 +9,7 @@
   <div class="main">
     <h2>Mitglieder</h2>
     <h5>Swipe your cursor over the pictures to see some quotes.</h5>
-	
+
 	<div class="row">
 	  <div class="column">
 		<div class="container">
@@ -69,11 +68,7 @@
 		</div>
 	  </div>
 	</div>
-	
-	
-	
-	
-	
+
     <p>Who we are ......</p>
     <br>
   </div>

@@ -1,5 +1,4 @@
 <!--#include file="header.html" -->
-<link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" type="text/css" href="scrum.css">
 
 <div class="row">
@@ -78,11 +77,10 @@
     dafür sorgen, dass die Rahmenbedingungen wie Räumlichkeiten, Ressourcen,
     verfügbare Technik, personelle Ausstattung gegeben sind.<br></p>
     <p>
-      Quelle: <a href="https://wirtschaftslexikon.gabler.de/definition/scrum-53462/version-276551">Gabler Wirtschaftslexikon
-      <br><br>
+      Quelle: <a href="https://wirtschaftslexikon.gabler.de/definition/scrum-53462/version-276551">Gabler Wirtschaftslexikon<br><br>
     </a>
-    </p></div>
-
+    </p>
+    </div>
 
 <p><a href="https://www.scrumguides.org/">Link zur offiziellen Scrum-Seite</a></p>
     <p><a href="https://www.scrumguides.org/download.html">Download the official Scrum-Guide in your language</a></p>

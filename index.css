@@ -99,13 +99,13 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #4A6572;
 }
 
 /* Style the impressum link */
 .impressum{
   font-size: 14px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 

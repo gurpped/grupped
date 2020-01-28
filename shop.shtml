@@ -8,7 +8,7 @@
     <div class="shopimg" style="height:60px;">Image</div><br>
   </div>
 
-  <div class="main">
+  <div class="main" oncontextmenu="return false">
     <h1>Shop</h1>
     <div class="shopContent">
       <h2>T-Shirt</h2>

@@ -45,12 +45,6 @@ body {
   text-decoration: none;
 }
 
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
 /* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
@@ -58,7 +52,7 @@ body {
 }
 
 /* Active/current link */
-.navbar a.active {
+.navbar a.highlighted {
   background-color: #F9AA33;
   color: white;
 }

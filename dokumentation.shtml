@@ -13,9 +13,9 @@
     <a href="#Überschrift7">Impressum</a>
   </div>
   <div class="main">
-    <div class="doku-abschnitt" style="float:right;">
+    <div class="doku-abschnitt-right">
       <h2 id="Überschrift1"> Übersicht</h2>
-      <img class="doku-bild" src="bilder_dokumentation/uebersicht.png" alt="Smiley face" style="float:right;width:635px;height:322px;overflow: visible;clear:right;">
+      <img class="doku-bild-right" src="bilder_dokumentation/uebersicht.png" alt="Smiley face">
       <p>
       Der Grundsätzliche Aufbau der Seite stellt sich wie folgt dar:<br>
       Im Header ganz oben auf der Seite wird unser Logo präsentiert. Darunter, in der Navigationsbar ist eine Schnell
@@ -32,52 +32,52 @@
       im sogenannten Footer einen Verweis "Impressum - Datenschutz - Haftungsausschluss", durch den Sie die genanntent Punkte
       in unserem Impressum im Detail nachlesen können.<br></p>
     </div>
-    <div class="doku-abschnitt" style="float: left">
+    <div class="doku-abschnitt-left">
       <h2 id="Überschrift2">Startseite</h2>
-      <img class="doku-bild" src="bilder_dokumentation/startseite.png" alt="Smiley face" style="float:left;width:635px;height:322px;overflow: visible;clear:left;">
+      <img class="doku-bild-left" src="bilder_dokumentation/startseite.png" alt="Smiley face">
       <p>
       Die Startseite dient dazu, den einen Ankerpunkt für die Website zu stellen und zusätlich neue
       Besucher auf der Website willkommen zu heißen. Dabei werden auch die wichtigsten Neuigkeiten anschaulich präsentiert,
       kleinere Neuigkeiten, die keine Bilder enthalten sind im Newsticker zu finden.<br></p>
     </div>
-    <div class="doku-abschnitt" style="float: right">
+    <div class="doku-abschnitt-right">
       <h2 id="Überschrift3">Mitglieder</h2>
-      <img class="doku-bild" src="bilder_dokumentation/mitglieder.png" alt="Smiley face" style="float:right;width:635px;height:322px;overflow: visible;clear:right;">
+      <img class="doku-bild-right" src="bilder_dokumentation/mitglieder.png" alt="Smiley face">
       <p><p>
       Auf dieser Seite stellen sich die Autoren dieser Website selber vor. Neben einem selbst ausgewähltem representativen
       Bild, dass symbolischen Charakter hat, und die emotionale Bindung mit dem Team der Website erleichtert, findet sich
       auch ein Zitat, was das jeweilige Lebensmotto, die Einstellung zu Scrum, zu der Welt oder zu ähnlich wichtigen Dingen
       wiederspiegelt.<br></p>
     </div>
-    <div class="doku-abschnitt" style="float: left">
+    <div class="doku-abschnitt-left">
       <h2 id="Überschrift4">Shop</h2>
-      <img class="doku-bild" src="bilder_dokumentation/shop.png" alt="Smiley face" style="float:left;width:635px;height:322px;overflow: visible;clear: left">
+      <img class="doku-bild-left" src="bilder_dokumentation/shop.png" alt="Smiley face">
       <p>
       Für die Fans unter Ihnen haben wir extra einen Web-Shop eingebaut. Darüber können Sie sämtlichen von uns erhältlichen
       Merchandise bestellen, wie zum Beispiel mit unserem Logo bedruckte Hoodies, Mützen, Kappen und T-Shirts. Durch ein Klicken
       und Halten mit der Linken Maustaste auf ein Item wird dieses vergrößert dargestellt, damit Sie sich bei Ihrem Einkauf
       noch besser entscheiden können.<br></p>
     </div>
-    <div class="doku-abschnitt" style="float: right">
+    <div class="doku-abschnitt-right">
       <h2 id="Überschrift5">Dokumentation</h2>
-      <img class="doku-bild" src="bilder_dokumentation/dokumentation.png" alt="Smiley face" style="float:right;width:635px;height:322px;overflow: visible;clear: right">
+      <img class="doku-bild-right" src="bilder_dokumentation/dokumentation.png" alt="Smiley face">
       <p>
       Die Dokumentationsseite ist die Seite, auf der Sie sich gerade befinden. Links, im Seitenmenü finden Sie eine
       Übersicht der einzelenen Kapitel. Die Dokumentations-Seite soll dabei einen Überblick über die Funktionalitäten
       und Inhalte dieses Websiten-Projekts bieten.<br></p>
     </div>
-    <div class="doku-abschnitt" style="float: left">
+    <div class="doku-abschnitt-left">
       <h2 id="Überschrift6">Scrum</h2>
-      <img class="doku-bild" src="bilder_dokumentation/scrum.png" alt="Smiley face" style="float:left;width:635px;height:322px;overflow: visible;clear: left">
+      <img class="doku-bild-left" src="bilder_dokumentation/scrum.png" alt="Smiley face">
       <p>
       Damit dieses Website-Projekt überhaupt Realität werden konnte, haben wir uns an den Scrum-Guide, einen Leitfaden
       für agiles Arbeiten gehalten. Um diesen zu würdigen zeigen wir unsere Interpretation, also unsere konkrete Arbeitsweise
       mit Scrum auf, bieten einen Überblick über Scrum und haben noch ein englisches Erklärvideo zu Scrum eingebunden.<br>
       </p>
     </div>
-    <div class="doku-abschnitt" style="float: right">
+    <div class="doku-abschnitt-right">
       <h2 id="Überschrift7">Impressum</h2>
-      <img class="doku-bild" src="bilder_dokumentation/impressum.png" alt="Smiley face" style="float:right;width:635px;height:322px;overflow: visible;clear: right">
+      <img class="doku-bild-right" src="bilder_dokumentation/impressum.png" alt="Smiley face">
       <p>
         Auf jeder Seite außer der Impressumsseite können Sie über den Link im Footer zu unserer Impressumsseite gelangen.
         Dort versorgen wir Sie mit Kontakt-Informationen, wie unserer Telefonnummer, E-Mailadresse oder unsere

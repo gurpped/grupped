@@ -5,6 +5,7 @@
   <div class="side">
   </div>
   <div class="main">
+    <div class="scrum">
     <h2>Scrum</h2>
     <h2>Unsere Arbeit mit Scrum</h2>
     <p>Wie man durch diese Seite sehen kann, weisen wir dem Scrum-Model und dem Arbeiten damit eine besondere Bedeutung
@@ -22,7 +23,7 @@
       Insgesamt kann man sagen, dass alle Teammitglieder sehr schnell die Arbeitsweise mit Scrum akzeptiert und in die
       tägliche Routine mit Begeisterung integriert haben. Dabei ist vor allem das veranwortungsvolle Management durch
       den Product-Owner hervorzuheben.</p>
-    <img src="scrum_deck.png" alt="Scrum-Symbolbild" style="height: 320px; width: 715px">
+    <img class="scrum_bild" src="scrum_deck.png" alt="Scrum-Symbolbild" >
     <h2>Definition</h2>
 
     <div class="field__item"><p class="MsoNormal">Vorgehensmodell der agilen Softwareentwicklung,
@@ -82,9 +83,10 @@
 
 <p><a href="https://www.scrumguides.org/">Link zur offiziellen Scrum-Seite</a></p>
     <p><a href="https://www.scrumguides.org/download.html">Download the official Scrum-Guide in your language</a></p>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9TycLR0TqFA" frameborder="0"
+    <iframe class="scrum_video"  src="https://www.youtube-nocookie.com/embed/9TycLR0TqFA" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <br>
   </div>
+</div>
 
 <!--#include file="footer.html" -->

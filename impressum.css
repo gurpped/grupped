@@ -3,7 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
- a {
+a {
 text-decoration: none;
+}
+.impressum{
+    width: 95%;
+    text-align: justify;
 }
 

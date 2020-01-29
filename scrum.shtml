@@ -6,7 +6,7 @@
   </div>
   <div class="main">
     <h2>Scrum</h2>
-    <h5>Unsere Arbeit mit Scrum</h5>
+    <h2>Unsere Arbeit mit Scrum</h2>
     <p>Wie man durch diese Seite sehen kann, weisen wir dem Scrum-Model und dem Arbeiten damit eine besondere Bedeutung
       zu. Seit Beginn dieses Projektes versuchen wir, nach bestem Wissen und Gewissen die Leitlinien und grundsätzlichen
       Ideen von Scrum umzusetzen. Noch vor dem ersten Sprint unterstützten wir unseren Product-Owner beim Befüllen des
@@ -23,7 +23,7 @@
       tägliche Routine mit Begeisterung integriert haben. Dabei ist vor allem das veranwortungsvolle Management durch
       den Product-Owner hervorzuheben.</p>
     <img src="scrum_deck.png" alt="Scrum-Symbolbild" style="height: 320px; width: 715px">
-    <h5>Ausführliche Definition</h5>
+    <h2>Definition</h2>
 
     <div class="field__item"><p class="MsoNormal">Vorgehensmodell der agilen Softwareentwicklung,
     das davon ausgeht, dass Softwareprojekte aufgrund ihrer Komplexität

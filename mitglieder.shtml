@@ -11,9 +11,9 @@
 	<div class="row">
 	  <div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member1" class="image">
+		  <img src="bilder_mitglieder/Diego.jpg" alt="Member1" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Diego</p><p>-"Ich wär lieber ein Alpaka"</p></div>
 		  </div>
 		</div>
 	  </div>

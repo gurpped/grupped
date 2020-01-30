@@ -1,396 +1,431 @@
 :root {
-  --seconds-per-ticker-message: 4s;
-  --number-of-ticker-messages: 28;
+    --seconds-per-ticker-message: 4s;
+    --number-of-ticker-messages: 28;
 }
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Style the body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
-  text-align: center;
-  background: #232F34;
-  color: white;
+    padding: 80px;
+    text-align: center;
+    background: #232F34;
+    color: white;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 80px;
+    font-size: 80px;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
-  overflow: hidden;
-  background-color: #4A6572;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 1;
+    overflow: hidden;
+    background-color: #4A6572;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 /* Active/current link */
 .navbar a.highlighted {
-  background-color: #F9AA33;
-  color: white;
+    background-color: #F9AA33;
+    color: white;
 }
 
 /* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 5%; /* IE10 */
-  flex: 5%;
-  background-color: #4a6572;
-  color: #fff;
-  padding: 20px;
+    -ms-flex: 5%; /* IE10 */
+    flex: 5%;
+    background-color: #4a6572;
+    color: #fff;
+    padding: 20px;
 }
 
 .side a {
-  /*padding: 6px 8px 6px 16px;*/
-  text-decoration: none;
-  font-size: 22px;
-  display: block;
+    /*padding: 6px 8px 6px 16px;*/
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
 }
-.page-titel{
-  color: #F9AA33;
+
+.page-titel {
+    color: #F9AA33;
 
 }
+
 .side a:link {
-  color: #fff;
+    color: #fff;
 }
 
 .side a:visited {
-  color: #fff;
+    color: #fff;
 }
+
 .side a:hover {
-  color: #f9aa33;
+    color: #f9aa33;
 }
 
 .side a:active {
-  color: #232f34;
+    color: #232f34;
 }
+
 /* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #4A6572;
+    padding: 20px;
+    text-align: center;
+    background: #4A6572;
 
 }
 
 .footer a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 /* Style the impressum link */
-.impressum{
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
+.impressum {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
 }
-.socialMedia a{
-  float: right;
-  display: inline-block;
+
+.socialMedia a {
+    float: right;
+    display: inline-block;
 }
+
 .socialMedia p {
-  float: right;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  margin: 5px;
-  color: white;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin: 5px;
+    color: white;
 }
+
 .facebook {
-  margin: 0px 5px;
-  height: 30px;
-  width: 30px;
-  background: url('bilder_footer/weiß/facebook.png');
-  background-size: 30px 30px;
+    margin: 0px 5px;
+    height: 30px;
+    width: 30px;
+    background: url('bilder_footer/weiß/facebook.png');
+    background-size: 30px 30px;
 }
+
 .facebook:hover {
-  background: url('bilder_footer/gelb/facebook.png');
-  background-size: 30px 30px;
+    background: url('bilder_footer/gelb/facebook.png');
+    background-size: 30px 30px;
 }
+
 .instagram {
-  margin: 0px 5px;
-  height: 30px;
-  width: 30px;
-  background: url('bilder_footer/weiß/instagram.png');
-  background-size: 30px 30px;
+    margin: 0px 5px;
+    height: 30px;
+    width: 30px;
+    background: url('bilder_footer/weiß/instagram.png');
+    background-size: 30px 30px;
 }
+
 .instagram:hover {
-  background: url('bilder_footer/gelb/instagram.png');
-  background-size: 30px 30px;
+    background: url('bilder_footer/gelb/instagram.png');
+    background-size: 30px 30px;
 }
+
 .twitter {
-  margin: 0px 5px;
-  height: 30px;
-  width: 30px;
-  background: url('bilder_footer/weiß/twitter.png');
-  background-size: 30px 30px;
+    margin: 0px 5px;
+    height: 30px;
+    width: 30px;
+    background: url('bilder_footer/weiß/twitter.png');
+    background-size: 30px 30px;
 }
+
 .twitter:hover {
-  background: url('bilder_footer/gelb/twitter.png');
-  background-size: 30px 30px;
+    background: url('bilder_footer/gelb/twitter.png');
+    background-size: 30px 30px;
 }
 
 /*newsticker*/
 @keyframes ticker {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-100%, 0, 0); }
-}
-.ticker-container{
-  width: 100%;
-  overflow: hidden;
-}
-.ticker-wrap {
-  width: 100%;
-  padding-left: 100%;
-  background-color: #4A6572;
-  color: #fff;
-  }
-  .ticker-move {
-  display: inline-block;
-  white-space: nowrap;
-  padding-right: 100%;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: ticker;
-  animation-duration: calc(var(--number-of-ticker-messages)*var(--seconds-per-ticker-message));
-}
-.ticker-move:hover{
-  animation-play-state: paused;
-}
-.ticker-line{
-  display: inline-block;
-  padding: 0 2rem;
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
 }
 
-.startpage-bild-left{
-  border: 1px solid black;
-  overflow: visible;
-  height: 225.6px;
-  width: 374px;
-  float: left;
-}
-.startpage-bild-right{
-  border: 1px solid black;
-  overflow: visible;
-  height: 225.6px;
-  width: 374px;
-  float: right;
-}
-.inhalt{
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 1%;
-}
-@media screen and (max-width: 3000px) {
-  .startpage-bild-left {
-    width: 233.75px;
-    height: 141px;
-  }
-
-  .startpage-bild-right {
-    width: 233.75px;
-    height: 141px;
-  }
-
-  .inhalt {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .startpage-bild-left {
-    width: 187px;
-    height: 112.9px;
-  }
-
-  .startpage-bild-right {
-    width: 187px;
-    height: 112.8px;
-  }
-
-  .inhalt {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-}
-@media screen and (max-width: 1000px){
-  .startpage-bild-left{
-    width: 187px;
-    height: 112.9px;
-  }
-  .startpage-bild-right{
-    width: 187px;
-    height: 112.8px;
-  }
-  .inhalt{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px){
-  .row {
-    flex-direction: column;
-  }
-  #LOGO{
+.ticker-container {
     width: 100%;
-    height: 20%;
-  }
-  .startpage-bild-left{
-    width: 187px;
-    height: 112.9px;
-  }
-  .startpage-bild-right{
-    width: 187px;
-    height: 112.8px;
-  }
-  .inhalt{
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+    overflow: hidden;
 }
 
-  @media screen and (max-width: 1000px) {
+.ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #4A6572;
+    color: #fff;
+}
+
+.ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: calc(var(--number-of-ticker-messages) * var(--seconds-per-ticker-message));
+}
+
+.ticker-move:hover {
+    animation-play-state: paused;
+}
+
+.ticker-line {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.startpage-bild-left {
+    border: 1px solid black;
+    overflow: visible;
+    height: 225.6px;
+    width: 374px;
+    float: left;
+}
+
+.startpage-bild-right {
+    border: 1px solid black;
+    overflow: visible;
+    height: 225.6px;
+    width: 374px;
+    float: right;
+}
+
+.inhalt {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+}
+
+@media screen and (max-width: 3000px) {
     .startpage-bild-left {
-      width: 187px;
-      height: 112.9px;
+        width: 233.75px;
+        height: 141px;
     }
 
     .startpage-bild-right {
-      width: 187px;
-      height: 112.8px;
+        width: 233.75px;
+        height: 141px;
     }
 
     .inhalt {
-      margin-left: 10%;
-      margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-  }
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 1200px) {
+    .startpage-bild-left {
+        width: 187px;
+        height: 112.9px;
+    }
+
+    .startpage-bild-right {
+        width: 187px;
+        height: 112.8px;
+    }
+
+    .inhalt {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .startpage-bild-left {
+        width: 187px;
+        height: 112.9px;
+    }
+
+    .startpage-bild-right {
+        width: 187px;
+        height: 112.8px;
+    }
+
+    .inhalt {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
     .row {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     #LOGO {
-      width: 100%;
-      height: 20%;
+        width: 100%;
+        height: 20%;
     }
 
     .startpage-bild-left {
-      width: 187px;
-      height: 112.9px;
+        width: 187px;
+        height: 112.9px;
     }
 
     .startpage-bild-right {
-      width: 187px;
-      height: 112.8px;
+        width: 187px;
+        height: 112.8px;
     }
 
     .inhalt {
-      margin-left: 5%;
-      margin-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-  }
+}
 
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
+    .startpage-bild-left {
+        width: 187px;
+        height: 112.9px;
+    }
+
+    .startpage-bild-right {
+        width: 187px;
+        height: 112.8px;
+    }
+
+    .inhalt {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+
+    #LOGO {
+        width: 100%;
+        height: 20%;
+    }
+
+    .startpage-bild-left {
+        width: 187px;
+        height: 112.9px;
+    }
+
+    .startpage-bild-right {
+        width: 187px;
+        height: 112.8px;
+    }
+
+    .inhalt {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
     .navbar {
-      height: 10%;
+        height: 10%;
     }
 
     .nav_center_container {
-      margin: auto;
+        margin: auto;
     }
 
     .navbar a {
-      float: left;
-      width: 20%;
-      margin: auto;
-      padding: 5px;
+        float: left;
+        width: 20%;
+        margin: auto;
+        padding: 5px;
     }
 
     .nav_home {
-      content: url("logo.png");
+        content: url("logo.png");
     }
 
     .nav_member {
-      content: url("members-logo-yellow-almost-sqare.png");
+        content: url("members-logo-yellow-almost-sqare.png");
     }
 
     .nav_shop {
-      content: url("shop-logo-yellow.png");
+        content: url("shop-logo-yellow.png");
     }
 
     .nav_doku {
-      content: url("documentation-logo-landscape.png");
+        content: url("documentation-logo-landscape.png");
     }
 
     .nav_scrum {
-      content: url("shop-logo.png");
+        content: url("shop-logo.png");
     }
 
     .header {
-      /*image-resolution: 100px;*/
+        /*image-resolution: 100px;*/
     }
 
     /*.side:empty{
       display: none;
     }*/
     .side {
-      padding: 5px;
+        padding: 5px;
     }
 
     .startpage-bild-left {
-      display: none;
+        display: none;
     }
 
     .startpage-bild-right {
-      display: none;
+        display: none;
     }
 
     .inhalt {
-      margin: 0px;
+        margin: 0px;
     }
-  }
+}

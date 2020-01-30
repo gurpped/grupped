@@ -78,7 +78,7 @@ body, html {
         display: flex;
         -ms-flex-wrap: wrap; /* IE10 */
         flex-wrap: wrap;
-        height: calc(100% - 104px);
+        height: calc(100% - 105px);
         width: 100%;
     }
 }

@@ -3,9 +3,9 @@
 
 <div class="row">
   <div class="side">
+	  <a class="page-titel">Mitglieder</a>
   </div>
   <div class="main">
-    <h2>Mitglieder</h2>
     <h5>Swipe your cursor over the pictures to see some quotes.</h5>
 
 	<div class="row">
@@ -35,17 +35,17 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member4" class="image">
+		  <img src="bilder_mitglieder/moritz.png" alt="Member4" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Moritz</p><p>-"Was wär wohl der Effekt von Javascript?"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member5" class="image">
+		  <img src="bilder_mitglieder/benedikt.png" alt="Member5" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Benedikt</p><p>-"Es ist nicht einfach durchgängig betrunken zu sein. Jeder würde es machen wenn es einfach wäre"</p></div>
 		  </div>
 		</div>
 	  </div>

@@ -11,15 +11,15 @@
 	<div class="row">
 	  <div class="column">
 		<div class="container">
-		  <img src="bilder_mitglieder/Diego.jpg" alt="Member1" class="image">
+		  <img src="bilder_mitglieder/Diego.jpg" alt="Diego" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Diego</p><p>-"Ich wär lieber ein Alpaka"</p></div>
+		    <div class="text"><p>Diego</p><p>"Ich wär lieber ein Alpaka"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="6053.gif" alt="Member2" class="image">
+		  <img src="6053.gif" alt="Omran" class="image">
 		  <div class="overlay">
 		    <div class="text"><p>Omran</p><p>"Natürlicher Verstand kann fast jeden Grad von Bildung ersetzen, aber keine Bildung den natürlichen Verstand"</p></div>
 		  </div>
@@ -27,7 +27,7 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="bilder_mitglieder/kai.png" alt="Member3" class="image">
+		  <img src="bilder_mitglieder/kai.png" alt="Kai" class="image">
 		  <div class="overlay">
 		    <div class="text"><p>Kai</p><p>"I DECLARE DATA BREACH!!!"</p></div>
 		  </div>
@@ -35,15 +35,15 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="bilder_mitglieder/moritz.png" alt="Member4" class="image">
+		  <img src="bilder_mitglieder/moritz.png" alt="Moritz" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Moritz</p><p>-"Was wär wohl der Effekt von Javascript?"</p></div>
+		    <div class="text"><p>Moritz</p><p>"Was wär wohl der Effekt von Javascript?"</p></div>
 		  </div>
 		</div>
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="bilder_mitglieder/benedikt.png" alt="Member5" class="image">
+		  <img src="bilder_mitglieder/benedikt.png" alt="Benedikt" class="image">
 		  <div class="overlay">
 		    <div class="text"><p>Benedikt</p><p>-"Es ist nicht einfach durchgängig betrunken zu sein. Jeder würde es machen wenn es einfach wäre"</p></div>
 		  </div>
@@ -51,9 +51,9 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member6" class="image">
+		  <img src="bilder_mitglieder/lena.png" alt="Lena" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Lena</p><p>"Wenn es dir Angst macht, könnte es einen Versuch wert sein."</p></div>
 		  </div>
 		</div>
 	  </div>
@@ -61,7 +61,7 @@
 		<div class="container">
 		  <img src="mitglieder-testbild.jpg" alt="Member7" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Name</p><p>"blablabla"</p></div>
 		  </div>
 		</div>
 	  </div>

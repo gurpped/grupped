@@ -147,12 +147,12 @@ body {
     margin: 0px 5px;
     height: 30px;
     width: 30px;
-    background: url('bilder_footer/weiß/facebook.png');
+    background: url('logos/facebook_white.png');
     background-size: 30px 30px;
 }
 
 .facebook:hover {
-    background: url('bilder_footer/gelb/facebook.png');
+    background: url('logos/facebook_yellow.png');
     background-size: 30px 30px;
 }
 
@@ -160,12 +160,12 @@ body {
     margin: 0px 5px;
     height: 30px;
     width: 30px;
-    background: url('bilder_footer/weiß/instagram.png');
+    background: url('logos/instagram_white.png');
     background-size: 30px 30px;
 }
 
 .instagram:hover {
-    background: url('bilder_footer/gelb/instagram.png');
+    background: url('logos/instagram_yellow.png');
     background-size: 30px 30px;
 }
 
@@ -173,12 +173,12 @@ body {
     margin: 0px 5px;
     height: 30px;
     width: 30px;
-    background: url('bilder_footer/weiß/twitter.png');
+    background: url('logos/twitter_white.png');
     background-size: 30px 30px;
 }
 
 .twitter:hover {
-    background: url('bilder_footer/gelb/twitter.png');
+    background: url('logos/twitter_yellow.png');
     background-size: 30px 30px;
 }
 
@@ -311,22 +311,22 @@ body {
     }
 
     .nav_home {
-        content: url("logo.png");
+        content: url("logos/logo.png");
     }
 
     .nav_member {
-        content: url("members-logo-yellow-almost-sqare.png");
+        content: url("logos/members-logo-yellow-almost-sqare.png");
     }
 
     .nav_shop {
-        content: url("shop-logo-yellow.png");
+        content: url("logos/shop-logo-yellow.png");
     }
 
     .nav_doku {
-        content: url("documentation-logo-yellow-quer.png");
+        content: url("logos/documentation-logo-yellow-landscape.png");
     }
     .nav_scrum {
-        content: url("scrum-logo-yellow.png");
+        content: url("logos/scrum-logo-yellow.png");
     }
 
     .header {

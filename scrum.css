@@ -1,166 +1,156 @@
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
-  width: 100%;
-  padding: 5px;
+    float: left;
+    width: 100%;
+    padding: 5px;
 }
 
 /* Clear floats after image containers */
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .scrum {
-  height: 100%;
-  width: 100%;
-  -ms-flex: 80%; /* IE10 */
-  flex: 80%;
-  /*-ms-flex: 85%; !* IE10 *!*/
-  /*flex: 85%;*/
-  background-color: white;
-  padding: 20px;
-  overflow: auto;
-}
-@media screen and (max-width: 500px) {
-  .column {
+    height: 100%;
     width: 100%;
-  }
+    -ms-flex: 80%; /* IE10 */
+    flex: 80%;
+    /*-ms-flex: 85%; !* IE10 *!*/
+    /*flex: 85%;*/
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
 }
 
 .container {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #000000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
 }
 
 
 .container:hover .overlay {
-  opacity: 0.75;
+    opacity: 0.75;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;}
-.scrum_bild{
-  height: 320px;
-  width: 715px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
-.scrum_video{
-  width:560px;
-  height:315px;
+
+.scrum_bild {
+    width: 70%;
 }
+
+.scrum_video {
+    width: 560px;
+    height: 315px;
+}
+
+@media only screen and (max-width: 600px) {
+    .scrum_bild {
+      width: 100%;
+    }
+}
+
 @media only screen and (max-width: 300px) {
-  /* For mobile phones: */
-  .scrum{
-  with:100%;
-  padding:0px;
+    /* For mobile phones: */
+    .scrum {
+        with: 100%;
+        padding: 0px;
+    }
+    .scrum_video {
+        height: 175.5px;
+        width: 280px;
+    }
 }
-  .scrum_bild{
-    height: 80px;
-    width: 178.75px;
-  }
-  .scrum_video{
-    height:175.5px;
-    width:280px;
-  }
-}
+
 @media only screen and (min-width: 300px) {
-  /* For mobile phones: */
-  .scrum{
-    with:100%;
-    padding:0px;
-  }
-  .scrum_bild{
-    height: 80px;
-    width: 178.75px;
-  }
-  .scrum_video{
-    height:175.5px;
-    width:280px;
-  }
+    /* For mobile phones: */
+    .scrum {
+        with: 100%;
+        padding: 0px;
+    }
+    .scrum_video {
+        height: 175.5px;
+        width: 280px;
+    }
 
 }
 
 @media only screen and (min-width: 600px) {
-  /* For mobile phones: */
-  .scrum{
-    with:100%;
-  }
-  .scrum_bild{
-    height: 240px;
-    width: 536.25px;
-  }
-  .scrum_video{
-    width:560px;
-    height:315px;
-  }
+    /* For mobile phones: */
+    .scrum {
+        with: 100%;
+    }
+    .scrum_video {
+        width: 560px;
+        height: 315px;
+    }
 }
+
 @media only screen and (min-width: 800px) {
-  /* For tablets: */
-  .scrum{
-    with:100%;
-  }
-  .scrum_bild{
-    height: 320px;
-    width: 715px;
-  }
-  .scrum_video{
-    width:560px;
-    height:315px;
-  }
+    /* For tablets: */
+    .scrum {
+        with: 100%;
+    }
+    .scrum_video {
+        width: 560px;
+        height: 315px;
+    }
 }
+
 @media only screen and (min-width: 1000px) {
-  /* For pcs: */
-  .scrum{
-    with:100%;
-  }
-  .scrum_bild{
-    height: 320px;
-    width: 715px;
-  }
-  .scrum_video{
-    height:472.5px;
-    width:840px;
-  }
+    /* For pcs: */
+    .scrum {
+        with: 100%;
+    }
+    .scrum_video {
+        height: 472.5px;
+        width: 840px;
+    }
 }
+
 @media only screen and (min-width: 1400px) {
-  /* For pcs: */
-  .scrum{
-    with:100%;
-  }
-  .scrum_bild{
-    height: 480px;
-    width: 1072.5px;
-  }
-  .scrum_video{
-    height:708.75px;
-    width:1260px;
-  }
+    /* For pcs: */
+    .scrum {
+        with: 100%;
+    }
+    .scrum_video {
+        height: 708.75px;
+        width: 1260px;
+    }
 }

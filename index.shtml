@@ -1,7 +1,7 @@
 <!--#include file="header.html" -->
 
 <div class="header">
-  <img id="LOGO" src="logo.png" alt="Gruppe D-Logo" width="33%" height="33%" >
+  <img id="LOGO" src="logos/logo.png" alt="Gruppe D-Logo" width="33%" height="33%" >
 </div>
 
 <!--#include file="newsticker.html" -->

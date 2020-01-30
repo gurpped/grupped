@@ -185,8 +185,48 @@ body {
 .inhalt{
   margin-left: 25%;
   margin-right: 25%;
+  padding: 1%;
 }
-
+@media screen and (max-width: 3000px){
+  .startpage-bild-left{
+    width: 233.75px;
+    height: 141px;
+  }
+  .startpage-bild-right{
+    width: 233.75px;
+    height: 141px;
+  }
+  .inhalt{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+@media screen and (max-width: 1200px){
+  .startpage-bild-left{
+    width: 187px;
+    height: 112.9px;
+  }
+  .startpage-bild-right{
+    width: 187px;
+    height: 112.8px;
+  }
+  .inhalt{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+@media screen and (max-width: 1000px){
+  .startpage-bild-left{
+    width: 187px;
+    height: 112.9px;
+  }
+  .startpage-bild-right{
+    width: 187px;
+    height: 112.8px;
+  }
+  .inhalt{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px){
   .row {
@@ -195,6 +235,18 @@ body {
   #LOGO{
     width: 100%;
     height: 20%;
+  }
+  .startpage-bild-left{
+    width: 187px;
+    height: 112.9px;
+  }
+  .startpage-bild-right{
+    width: 187px;
+    height: 112.8px;
+  }
+  .inhalt{
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -209,5 +261,14 @@ body {
   }
   .box{
     display: block;
+  }
+  .startpage-bild-left{
+    display: none;
+  }
+  .startpage-bild-right{
+    display: none;
+  }
+  .inhalt{
+    margin: 0px;
   }
 }

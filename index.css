@@ -23,7 +23,9 @@ body {
 .header h1 {
     font-size: 80px;
 }
-
+.headline_centered{
+    text-align: center;
+}
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
     overflow: hidden;
@@ -225,28 +227,28 @@ body {
     padding: 0 2rem;
 }
 
-.inhalt {
+.content {
     margin-left: 25%;
     margin-right: 25%;
     padding: 1%;
 }
 
 @media screen and (max-width: 3000px) {
-    .inhalt {
+    .content {
         margin-left: 15%;
         margin-right: 15%;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .inhalt {
+    .content {
         margin-left: 15%;
         margin-right: 15%;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .inhalt {
+    .content {
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -263,31 +265,7 @@ body {
         height: 20%;
     }
 
-    .inhalt {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .inhalt {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .row {
-        flex-direction: column;
-    }
-
-    #LOGO {
-        width: 100%;
-        height: 20%;
-    }
-
-    .inhalt {
+    .content {
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -340,7 +318,7 @@ body {
         padding: 5px;
     }
 
-    .inhalt {
+    .content {
         margin: 0px;
     }
 }

@@ -11,9 +11,9 @@
     <a class="page-titel">Start</a>
   </div>
   <div class="main">
-    <div class="inhalt">
-    <h1 style="text-align: center">Herzlich Willkommen</h1>
-    <h2 style="text-align: center">Wir begrüßen Sie ganz herzlich auf der Website von grupped</h2>
+    <div class="content">
+    <h1 class="headline_centered">Herzlich Willkommen</h1>
+    <h2 class="headline_centered">auf der Website von GruppeD</h2>
     <h3>Wer sind wir?</h3>
     <p>"Wir" sind eine Gruppe von jungen Web-Entwicklern, die es sich auf die Fahne geschrieben hat, möglichst coole
     Websites zu entwickeln. Das Team besteht dabei aus sieben Mitgliedern, sogar Frauenpower ist darunter zu finden.

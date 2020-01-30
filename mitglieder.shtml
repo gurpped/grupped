@@ -19,7 +19,7 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="6053.gif" alt="Omran" class="image">
+		  <img src="bilder_mitglieder/6053.gif" alt="Omran" class="image">
 		  <div class="overlay">
 		    <div class="text"><p>Omran</p><p>"Natürlicher Verstand kann fast jeden Grad von Bildung ersetzen, aber keine Bildung den natürlichen Verstand"</p></div>
 		  </div>
@@ -57,17 +57,18 @@
 		  </div>
 		</div>
 	  </div>
-	  <div class="column">
+	<div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member7" class="image">
-		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>"blablabla"</p></div>
-		  </div>
+			<img src="bilder_mitglieder/raphael_batman.jpeg" alt="raphael/bettmann" class="image">
+			<div class="overlay">
+				<div class="text"><p>Name</p><p>-"	body{<br>
+													color: #ffb4d5;<br>
+													/*black*/<br>
+													}"</p></div>
+			</div>
 		</div>
-	  </div>
 	</div>
-
-    <p>Who we are ......</p>
+	</div>
     <br>
   </div>
 </div>

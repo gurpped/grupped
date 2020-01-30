@@ -133,12 +133,12 @@ body {
 }
 
 .socialMedia a {
-    float: right;
+    float: none;
     display: inline-block;
 }
 
 .socialMedia p {
-    float: right;
+    float: none;
     font-family: "Times New Roman", Times, serif;
     font-size: 25px;
     margin: 5px;
@@ -428,4 +428,20 @@ body {
     .inhalt {
         margin: 0px;
     }
+}
+
+/*Footer responsive machen */
+@media only screen and (min-width: 940px){
+  .socialMedia a {
+    float: left;
+    display: inline-block;
+  }
+
+  .socialMedia p {
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+  }
 }

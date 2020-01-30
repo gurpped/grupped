@@ -1,13 +1,13 @@
 .shopContent{
   display: inline-grid;
   width: 310px;
+  cursor: pointer;
 }
 .shopimg{
   height: 300px;
-  width: 300px;
+  /*width: 300px;*/
   background-color: #aaa;
   width:100%;
-  padding:0px;
 }
 
 .description{
@@ -17,7 +17,6 @@
 /*this creates a black frame when moving about an shop item*/
 div.shopContent:hover {
   border: 2px solid #777;
-  with:308px;
 }
 .focusExitButton{
   background-color: red;
@@ -32,7 +31,7 @@ div.shopContent:hover {
 div.shopContent:active {
   height: 80%;
   width: 50%;
-  z-index: 5;
+  z-index: 20;
   position: fixed;
   top: 10%;
   left: 30%;

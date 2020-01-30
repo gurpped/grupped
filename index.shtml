@@ -10,6 +10,9 @@
   <div class="side">
   </div>
   <div class="main">
+    <img class="startpage-bild-left" src="bilder_startseite/logo.png" alt="Logo links">
+    <img class="startpage-bild-right" src="bilder_startseite/logo.png" alt="Logo rechts">
+    <div class="inhalt">
     <h1 style="text-align: center">Herzlich Willkommen</h1>
     <h2 style="text-align: center">Wir begrüßen Sie ganz herzlich auf der Website von grupped</h2>
     <h3>Wer sind wir?</h3>
@@ -50,6 +53,7 @@
       Näheres zu den Individuen unseres Teams auf unserer Migliederseite.
     </p>
     <br>
+    </div>
   </div>
 </div>
 

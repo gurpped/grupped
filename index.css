@@ -225,22 +225,6 @@ body {
     padding: 0 2rem;
 }
 
-.startpage-bild-left {
-    border: 1px solid black;
-    overflow: visible;
-    height: 225.6px;
-    width: 374px;
-    float: left;
-}
-
-.startpage-bild-right {
-    border: 1px solid black;
-    overflow: visible;
-    height: 225.6px;
-    width: 374px;
-    float: right;
-}
-
 .inhalt {
     margin-left: 25%;
     margin-right: 25%;
@@ -248,16 +232,6 @@ body {
 }
 
 @media screen and (max-width: 3000px) {
-    .startpage-bild-left {
-        width: 233.75px;
-        height: 141px;
-    }
-
-    .startpage-bild-right {
-        width: 233.75px;
-        height: 141px;
-    }
-
     .inhalt {
         margin-left: 15%;
         margin-right: 15%;
@@ -265,16 +239,6 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .startpage-bild-left {
-        width: 187px;
-        height: 112.9px;
-    }
-
-    .startpage-bild-right {
-        width: 187px;
-        height: 112.8px;
-    }
-
     .inhalt {
         margin-left: 15%;
         margin-right: 15%;
@@ -282,16 +246,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    .startpage-bild-left {
-        width: 187px;
-        height: 112.9px;
-    }
-
-    .startpage-bild-right {
-        width: 187px;
-        height: 112.8px;
-    }
-
     .inhalt {
         margin-left: 10%;
         margin-right: 10%;
@@ -307,16 +261,6 @@ body {
     #LOGO {
         width: 100%;
         height: 20%;
-    }
-
-    .startpage-bild-left {
-        width: 187px;
-        height: 112.9px;
-    }
-
-    .startpage-bild-right {
-        width: 187px;
-        height: 112.8px;
     }
 
     .inhalt {
@@ -326,16 +270,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    .startpage-bild-left {
-        width: 187px;
-        height: 112.9px;
-    }
-
-    .startpage-bild-right {
-        width: 187px;
-        height: 112.8px;
-    }
-
     .inhalt {
         margin-left: 10%;
         margin-right: 10%;
@@ -351,16 +285,6 @@ body {
     #LOGO {
         width: 100%;
         height: 20%;
-    }
-
-    .startpage-bild-left {
-        width: 187px;
-        height: 112.9px;
-    }
-
-    .startpage-bild-right {
-        width: 187px;
-        height: 112.8px;
     }
 
     .inhalt {
@@ -414,14 +338,6 @@ body {
     }*/
     .side {
         padding: 5px;
-    }
-
-    .startpage-bild-left {
-        display: none;
-    }
-
-    .startpage-bild-right {
-        display: none;
     }
 
     .inhalt {

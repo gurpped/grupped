@@ -1,6 +1,4 @@
 :root {
-    --seconds-per-ticker-message: 4s;
-    --number-of-ticker-messages: 28;
 }
 
 * {
@@ -207,6 +205,8 @@ body {
 }
 
 .ticker-move {
+  --seconds-per-ticker-message: 6s;
+  --number-of-ticker-messages: 28;
     display: inline-block;
     white-space: nowrap;
     padding-right: 100%;

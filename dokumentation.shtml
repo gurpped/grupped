@@ -3,17 +3,19 @@
 
 <div class="row">
   <div class="side">
-    <a href="#Überschrift1">Übersicht</a>
-    <a href="#Überschrift2">Startseite</a>
-    <a href="#Überschrift3">Mitglieder</a>
-    <a href="#Überschrift4">Shop</a>
-    <a href="#Überschrift5">Dokumentation</a>
-    <a href="#Überschrift6">Scrum</a>
-    <a href="#Überschrift7">Impressum</a>
+    <a class="page-titel">Dokumentation</a>
+    <br>
+    <a href="#h_uebersicht">Übersicht</a>
+    <a href="#h_startseite">Startseite</a>
+    <a href="#h_mitglieder">Mitglieder</a>
+    <a href="#h_shop">Shop</a>
+    <a href="#h_dokumentation">Dokumentation</a>
+    <a href="#h_scrum">Scrum</a>
+    <a href="#h_impressum">Impressum</a>
   </div>
   <div class="main">
     <div class="doku-abschnitt-right">
-      <h2 id="Überschrift1"> Übersicht</h2>
+      <h2 id="h_uebersicht"> Übersicht</h2>
       <img class="doku-bild-right" src="bilder_dokumentation/uebersicht.png" alt="Smiley face">
       <p>
       Der Grundsätzliche Aufbau der Seite stellt sich wie folgt dar:<br>
@@ -32,7 +34,7 @@
       in unserem Impressum im Detail nachlesen können.<br></p>
     </div>
     <div class="doku-abschnitt-left">
-      <h2 id="Überschrift2">Startseite</h2>
+      <h2 id="h_startseite">Startseite</h2>
       <img class="doku-bild-left" src="bilder_dokumentation/startseite.png" alt="Smiley face">
       <p>
       Die Startseite dient dazu, den einen Ankerpunkt für die Website zu stellen und zusätlich neue
@@ -40,7 +42,7 @@
       kleinere Neuigkeiten, die keine Bilder enthalten sind im Newsticker zu finden.<br></p>
     </div>
     <div class="doku-abschnitt-right">
-      <h2 id="Überschrift3">Mitglieder</h2>
+      <h2 id="h_mitglieder">Mitglieder</h2>
       <img class="doku-bild-right" src="bilder_dokumentation/mitglieder.png" alt="Smiley face">
       <p><p>
       Auf dieser Seite stellen sich die Autoren dieser Website selber vor. Neben einem selbst ausgewähltem representativen
@@ -49,7 +51,7 @@
       wiederspiegelt.<br></p>
     </div>
     <div class="doku-abschnitt-left">
-      <h2 id="Überschrift4">Shop</h2>
+      <h2 id="h_shop">Shop</h2>
       <img class="doku-bild-left" src="bilder_dokumentation/shop.png" alt="Smiley face">
       <p>
       Für die Fans unter Ihnen haben wir extra einen Web-Shop eingebaut. Darüber können Sie sämtlichen von uns erhältlichen
@@ -58,7 +60,7 @@
       noch besser entscheiden können.<br></p>
     </div>
     <div class="doku-abschnitt-right">
-      <h2 id="Überschrift5">Dokumentation</h2>
+      <h2 id="h_dokumentation">Dokumentation</h2>
       <img class="doku-bild-right" src="bilder_dokumentation/dokumentation.png" alt="Smiley face">
       <p>
       Die Dokumentationsseite ist die Seite, auf der Sie sich gerade befinden. Links, im Seitenmenü finden Sie eine
@@ -66,7 +68,7 @@
       und Inhalte dieses Websiten-Projekts bieten.<br></p>
     </div>
     <div class="doku-abschnitt-left">
-      <h2 id="Überschrift6">Scrum</h2>
+      <h2 id="h_scrum">Scrum</h2>
       <img class="doku-bild-left" src="bilder_dokumentation/scrum.png" alt="Smiley face">
       <p>
       Damit dieses Website-Projekt überhaupt Realität werden konnte, haben wir uns an den Scrum-Guide, einen Leitfaden
@@ -75,7 +77,7 @@
       </p>
     </div>
     <div class="doku-abschnitt-right">
-      <h2 id="Überschrift7">Impressum</h2>
+      <h2 id="h_impressum">Impressum</h2>
       <img class="doku-bild-right" src="bilder_dokumentation/impressum.png" alt="Smiley face">
       <p>
         Auf jeder Seite außer der Impressumsseite können Sie über den Link im Footer zu unserer Impressumsseite gelangen.

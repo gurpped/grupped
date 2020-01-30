@@ -1,6 +1,6 @@
 :root {
   --seconds-per-ticker-message: 4s;
-  --number-of-ticker-messages: 4;
+  --number-of-ticker-messages: 28;
 }
 * {
   box-sizing: border-box;

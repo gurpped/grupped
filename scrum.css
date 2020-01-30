@@ -101,7 +101,7 @@
 @media only screen and (min-width: 300px) {
     /* For mobile phones: */
     .scrum {
-        with: 100%;
+        width: 100%;
         padding: 0px;
     }
     .scrum_video {
@@ -114,7 +114,7 @@
 @media only screen and (min-width: 600px) {
     /* For mobile phones: */
     .scrum {
-        with: 100%;
+        width: 100%;
     }
     .scrum_video {
         width: 560px;
@@ -125,7 +125,7 @@
 @media only screen and (min-width: 800px) {
     /* For tablets: */
     .scrum {
-        with: 100%;
+        width: 100%;
     }
     .scrum_video {
         width: 560px;
@@ -136,7 +136,7 @@
 @media only screen and (min-width: 1000px) {
     /* For pcs: */
     .scrum {
-        with: 100%;
+        width: 100%;
     }
     .scrum_video {
         height: 472.5px;
@@ -147,7 +147,7 @@
 @media only screen and (min-width: 1400px) {
     /* For pcs: */
     .scrum {
-        with: 100%;
+        width: 100%;
     }
     .scrum_video {
         height: 708.75px;

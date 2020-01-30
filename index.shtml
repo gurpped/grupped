@@ -15,9 +15,45 @@
   <div class="side">
   </div>
   <div class="main">
-    <h2>Index</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <p>Some text..</p>
+    <h1 style="text-align: center">Herzlich Willkommen</h1>
+    <h2 style="text-align: center">Wir begrüßen Sie ganz herzlich auf der Website von grupped</h2>
+    <h3>Wer sind wir?</h3>
+    <p>"Wir" sind eine Gruppe von jungen Web-Entwicklern, die es sich auf die Fahne geschrieben hat, möglichst coole
+    Websites zu entwickeln. Das Team besteht dabei aus sieben Mitgliedern, sogar Frauenpower ist darunter zu finden.
+      Gemäß unserem Motto "durchgehend dicht aber digital" sind wir keine Nerds, die mit Ihnen in einer Ihnen unverständlichen
+      Sprache über Ihre Website kommunizieren, und so aufgrund von fehlgeschlagener Kommunikation eine vollkommen falsche
+      Website designen und entwickeln, die vollkommen konträr zu Ihren Ansprüchen steht, nein wir sind nahbare Menschen,
+      die auch gesellschaftliche Veranstaltungen mit einem höheren Bildudngswert nicht scheuen. Mit uns kann man sich zur
+      Besprechung der Website auch mal in einer gemütlichen Bar oder Kneipe treffen, wobei durch das allgemeine Sprachniveau
+      sichergestellt wird, dass unsere Vorstellungen einer Website perfekt identisch sind.
+      Näheres zu unseren Individuen auf unserer Mitgliederseite.</p>
+    <h3>Was machen wir?</h3>
+    <p>Wir bauen Websites.<br>
+      Unter ehrlicher und rein ausschließlicher Verwendung der Webbausteine HTML und CSS bauen wir Ihre Website.
+      Dies geschieht unter der Zuhilfename der Hilfsmittel:<br>
+          - PHP-Storm: eine sehr interessante Entwicklungsumgebung, mit coolen Funktionen, zudem kostenlos für Studenten
+          und in der 30-Tage Test-Version<br>
+          - jitsi.org: eine sehr einfach zu bedienende online Kommunikationsplattform, die keine Anmeldung erfordert und
+          Chat, Videochat und Bildübertragung bietet<br>
+          - die "Deck"-App auf einem privaten Server: ein cooles Tool, um das Backlog und alle anderen Aufgaben von Scrum
+          zu organisieren.
+    </p>
+    <h3>Was ist unsere Philosophie?</h3>
+    <p>Durch eine Einführung in die Technik des "Scrum" und einer tiefgehenden Analyse dieses Frameworks kamen wir dazu,
+      Scrum in die DNA unseres Teams zu implementieren, und auf diese Art und Weise zu flexibel und effektiv wie
+      möglich an unseren Projekten zu arbeiten. Der Unterschied zwischen dem orginalen Konzept von Scrum und unserer
+      Umsetzung lässt sich ausschließlich mit den Beschränkungen der realen Welt erklären. (die Wahrscheinlichkeit,
+      dass in der Realität nicht alle Teammitglieder zur gleichen Zeit Zeit haben ist größer 0)
+    </p>
+    <h3>Was ist unsere Geschichte?</h3>
+    <p>Unsere Geschichte begann am 07.01.2020, also am siebten Januar des Jahres 2020: <br>
+      Nachdem unser Dozent, Herr Dr. Heiko Angermann, uns eine Einführung in Webengineering gegeben hat, rief er uns auf,
+      eine Website zu bauen, und dazu Gruppen zu bilden. Nach kurzer Zeit fanden sich so also die Mitglieder von grupped
+      zusammen und beschlossen ein Team zu bilden. Seitdem funktionieren wir in Webengineering nur noch als Kollektive
+      Einheit, um unser ausgewähltes Projekt zu einem erfolgreichen Abschluss zu bringen.<br>
+      Unsere Identität ist grupped. Wir sind grupped. Wir sind durchgehend dicht aber digital.
+      Näheres zu den Individuen unseres Teams auf unserer Migliederseite.
+    </p>
     <br>
   </div>
 </div>

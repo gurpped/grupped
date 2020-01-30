@@ -35,9 +35,9 @@
 	  </div>
 	  <div class="column">
 		<div class="container">
-		  <img src="mitglieder-testbild.jpg" alt="Member4" class="image">
+		  <img src="bilder_mitglieder/moritz.png" alt="Member4" class="image">
 		  <div class="overlay">
-		    <div class="text"><p>Name</p><p>-"blablabla"</p></div>
+		    <div class="text"><p>Moritz</p><p>-"Was wär wohl der Effekt von Javascript?"</p></div>
 		  </div>
 		</div>
 	  </div>
